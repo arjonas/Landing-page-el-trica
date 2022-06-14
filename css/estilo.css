@@ -4,7 +4,7 @@
 .avatar {
 
 margin:auto;
-text-align: center;
+text-align: right;
 width: 1050px;;
 height: 830px;
 
@@ -12,11 +12,12 @@ height: 830px;
 
 
 .manequin {
-
+ 
   width: 550px;
   height: 550px;
   border-radius: 50%;
- 
+  position: relative;
+   
 
 }
 
@@ -38,12 +39,6 @@ height: 830px;
 
 }
 
-.wppd{
- 
-
-  
-}
-
 
 .top{
 
@@ -56,4 +51,38 @@ height: 830px;
 .jj{
 
   width: 98%;
+}
+
+.topo{
+
+  
+
+  position: relative;
+  height: 1000px;
+  width: 100%;
+  z-index: 5;
+  
+}
+
+
+.bg{
+background-image: url("../projeto.jpg");
+position:absolute;
+width: 100%;
+height: 100%;
+opacity: 0.8;
+
+
+}
+
+.container{
+
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+
+.h1{
+
+  color: white;
 }

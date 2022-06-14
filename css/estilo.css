@@ -1,4 +1,11 @@
 
+.bar{
+
+  color: black;
+}
+
+
+
 
 
 .avatar {
@@ -53,7 +60,7 @@ height: 830px;
   width: 98%;
 }
 
-.topo{
+#topo{
 
   
 
@@ -70,7 +77,7 @@ background-image: url("../projeto.jpg");
 position:absolute;
 width: 100%;
 height: 100%;
-opacity: 0.8;
+opacity: 0.3;
 
 
 }

@@ -1,6 +1,6 @@
 
 .bar{
-
+  font-weight: bold;
   color: black;
 }
 
@@ -11,17 +11,17 @@
 .avatar {
 
 margin:auto;
-text-align: right;
-width: 1050px;;
-height: 830px;
+text-align: center;
+width: 100%;;
+height: 100%;
 
 }
 
 
 .manequin {
  
-  width: 550px;
-  height: 550px;
+  width: 20%;
+  height: 40%;
   border-radius: 50%;
   position: relative;
    
@@ -30,18 +30,24 @@ height: 830px;
 
 .contato{
 
-  text-align: right;
-  width: 1000px;
-  height: 160px;
-  text-align: right;
-  margin: 0px 80px 90px 50px ;
-  position:absolute;
+  
+  width: 10%;
+  height: 5%;
+  
+  
+  position:relative;
+  margin-bottom: 110px;
 
+}
+
+.wppd{
+  
+  margin-bottom: 70px;
 }
 
 .wpp{
   
-  width: 10%;
+  width: 70%;
   height: 10%;
 
 }
@@ -65,7 +71,7 @@ height: 830px;
   
 
   position: relative;
-  height: 1000px;
+  height: 700px;
   width: 100%;
   z-index: 5;
   
@@ -89,7 +95,83 @@ padding-bottom: 100px;
 
 }
 
+
+.row{
+
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .h1{
 
   color: white;
 }
+
+
+
+
+
+
+.sobre{
+
+  text-align: center;
+
+  align-items: center;
+
+  padding-top: 3%;
+  padding-bottom: 5%
+
+
+}
+
+
+
+.mim{
+
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+
+
+#trabalhos{
+
+  background-color:#6C757D ;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+  
+
+
+  #topo{
+
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+
+  .manequin{
+    width: 60%;
+    height: 60%;
+    text-align: center;
+
+    
+  }
+
+  .row{
+
+    margin-left: 6%;
+  }
+
+}
+  

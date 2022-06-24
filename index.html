@@ -6,6 +6,17 @@
     <title>Bootstrap demo</title>
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+
+    
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
     <link rel="stylesheet" href="css\estilo.css">
   </head>
   <body>
@@ -14,8 +25,8 @@
     <section id="topo">
       <div class="bg"></div>
    
-      <nav class="navbar-expand-lg navbar navbar-dark bg-secondary">
-      <a class="bar navbar-brand" href="#"> Sidnei Eletricista</a>
+      <nav class="navbar-expand-lg navbar navbar-light">
+      <a class="bar navbar-brand" href="#"><i class="bolt fas fa-bolt"></i></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#meuid" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,10 +39,10 @@
 
         <ul class="navbar-nav ml-auto">
           <li class="nav-item ">
-            <a class="bar nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="bar nav-link" href="#topo">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="bar nav-link" href="#">Trabalhos</a>
+            <a class="bar nav-link" href="#trabalhos">Trabalhos</a>
           </li>
           <li class="nav-item">
             <a class="bar nav-link" href="#">Orçamento</a>
@@ -58,8 +69,8 @@
   
       <div class="contato">
         <div class="wppd">
-        <img class="wpp"src="whatsapp.png">
-        <h1><a href="https://www.facebook.com/sidnei.a.reis/"> 11-989459946 </a></h1>
+        
+        <h1 class="numero"><a href="https://web.whatsapp.com/send?phone=5511989459946"target="_blank"> <img class="wpp"src="whatsapp.png"> </a></h1>
 
 </div>
 </div>
@@ -73,7 +84,14 @@
 
 
 
-
+<div class="sobre">
+  <h1 class="display">Seja bem-vindo!</h1>
+  <p class="lead">Minha meta e a resolução e a sua satisfação!</p>
+  <hr class="my-4">
+  <div class="mim">
+  <p class="my">Presto serviços como eletricista, atuando em instalações e manutenções elétricas prediais em apartamentos, residências e estabelecimentos comerciais. Trabalho com rapidez ,criatividade e seriedade visando à satisfação do cliente como meta, com preços abaixo do mercado e agilidade em todos os processos. Faço troca de lâmpadas, tomadas, ventiladores , substituição de cabeamentos  elétricos, troca de resistências de chuveiro , detecção e resolução de problemas pertinentes a área,  instalação de pontos novos , manutenção e ém instalação de quadros de distribuição entre outros serviços relacionados á minha atividade. Espero uma oportunidade de mostrar a qualidade e alto padrão dos meus serviços como eletricista.</p>
+  </div>
+</div>
 
 
 
@@ -86,9 +104,9 @@
 
 
 <section id="trabalhos">
-    <div class="container">
+        <div class="container">
         <div class="row">
-          <div class="col-sm">
+          <div class="col-sm cartao">
 
             <div class="card" style="width: 18rem;">
               <img src="projeto.jpg" class="card-img-top" alt="...">
@@ -99,7 +117,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm">
+          <div class="col-sm  cartao">
             <div class="card" style="width: 18rem;">
               <img src="teto.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -111,9 +129,9 @@
           </div>
 
 
-          <div class="col-sm">
+          <div class="col-sm cartao">
             <div class="card" style="width: 18rem;">
-              <img src="quadroo.jpg" class="card-img-top jj" alt="...">
+              <img src="quadro.jpg" class="card-img-top imagem_quadro" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -121,20 +139,14 @@
               </div>
             </div>
           </div>
-
         </div>
+
+        
 
     </div>
   </section>
 
-      <div class="sobre">
-        <h1 class="display">Seja bem-vindo!</h1>
-        <p class="lead">Minha meta e a resolução e a sua satisfação!</p>
-        <hr class="my-4">
-        <div class="mim">
-        <p class="my">Sou prestador de serviços como eletricista, atuando em instalações e manutenções elétricas em apartamentos, residências e estabelecimentos comerciais. Trabalho com rapidez ,criatividade e seriedade visando à satisfação do cliente como meta, com preços abaixo do mercado e agilidade em todos os processos. Faço troca de lâmpadas, tomadas, ventiladores , substituição de fiações  elétricas, troca de resistências de chuveiro , detecção e resolução de problemas pertinentes a área,  instalação de pontos novos , manutenção e ém instalação de quadros de distribuição entre outros serviços relacionados á minha atividade. Espero uma oportunidade de mostrar a qualidade e alto padrão dos meus serviços como eletricista.</p>
-        </div>
-      </div>
+      
 
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

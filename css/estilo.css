@@ -1,10 +1,27 @@
 
+body{
+
+  font-family: Abys,Arial, Helvetica, sans-serif;
+}
+
+
+.bolt{
+
+  color: #F4A422;
+  opacity: 0.5;
+}
+
 .bar{
   font-weight: bold;
   color: black;
 }
 
-
+.navbar{
+  font-family: Abys;
+  position: sticky;
+  bottom: 1%;
+  font-size: 1.1rem;
+}
 
 
 
@@ -35,23 +52,34 @@ height: 100%;
   height: 5%;
   
   
-  position:relative;
+  position:sticky;
+  top: 0;
   margin-bottom: 110px;
+  left: 70%;
+  bottom: 30%;
 
 }
 
 .wppd{
-  
+ 
   margin-bottom: 70px;
+  bottom: 10%;
+  position: absolute;
 }
 
 .wpp{
   
-  width: 70%;
+  width: 80%;
   height: 10%;
+  bottom: 10%;
+  
 
 }
 
+.numero{
+
+  font-size: 1.5rem;
+}
 
 .top{
 
@@ -60,11 +88,6 @@ height: 100%;
 
 }
 
-
-.jj{
-
-  width: 98%;
-}
 
 #topo{
 
@@ -88,20 +111,17 @@ opacity: 0.3;
 
 }
 
-.container{
 
-padding-top: 100px;
-padding-bottom: 100px;
+
+#trabalhos{
+
+  padding: 
+  text-align: center;
+
 
 }
 
 
-.row{
-
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .h1{
 
@@ -115,24 +135,25 @@ padding-bottom: 100px;
 
 .sobre{
 
-  text-align: center;
+  
 
-  align-items: center;
-
+  text-align:center;
   padding-top: 3%;
-  padding-bottom: 5%
-
+  padding-bottom: 5%;
+  text-indent: 3%;
 
 }
 
 
 
 .mim{
-
-  width: 50%;
+  text-align:justify;
+  width: 70%;
   height: 50%;
+  background-color: aquamarine;
   margin-left: auto;
   margin-right: auto; 
+  padding: 5% 5%;
 }
 
 
@@ -142,6 +163,18 @@ padding-bottom: 100px;
   background-color:#6C757D ;
 
 }
+
+
+
+
+.cartao{
+
+  margin: 4% 1%;
+
+}
+
+
+
 
 
 

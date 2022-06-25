@@ -115,20 +115,26 @@ opacity: 0.3;
 
 #trabalhos{
 
-  padding: 
+  padding: 7% 15%;
   text-align: center;
 
 
 }
 
+.card{
 
+  width: 18rem;
+}
 
 .h1{
 
   color: white;
 }
 
+.display{
 
+  text-align: center;
+}
 
 
 
@@ -136,10 +142,9 @@ opacity: 0.3;
 .sobre{
 
   
+  padding: 7% 15%;
 
-  text-align:center;
-  padding-top: 3%;
-  padding-bottom: 5%;
+  line-height: 1.7rem;
   text-indent: 3%;
 
 }
@@ -225,5 +230,42 @@ opacity: 0.3;
     margin-left: 6%;
   }
 
+
+
 }
+
+
+
+
+@media screen and (max-width: 947px) {
   
+
+  /*Trabalhos*/
+
+  .card{
+
+    width: 13rem;
+  }
+
+  .cartao{
+
+    padding: 1% 25%;
+
+  }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 514px) {
+
+  .cartao{
+
+    padding: 0% 3%;
+  }
+
+
+}

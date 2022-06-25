@@ -150,7 +150,7 @@ opacity: 0.3;
   text-align:justify;
   width: 70%;
   height: 50%;
-  background-color: aquamarine;
+  border: #6C757D;
   margin-left: auto;
   margin-right: auto; 
   padding: 5% 5%;
@@ -174,8 +174,27 @@ opacity: 0.3;
 }
 
 
+#footer{
+  align-items: center;
+  text-align: center;
+  padding: 7% 13%;
 
+}
 
+.sidpages{
+  width: 20%;
+  height: 20%;
+  margin-left: 40%;
+  align-items: center;
+  text-align: center;
+
+  
+}
+
+.container-fluid{
+  font-size: 0.8rem;
+  text-align: center;
+}
 
 
 

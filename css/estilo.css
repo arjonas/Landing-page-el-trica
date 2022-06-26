@@ -121,9 +121,35 @@ opacity: 0.3;
 
 }
 
-.card{
 
-  width: 18rem;
+card-body{
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carta{
+
+  padding: 7% 5%;
+
+  
 }
 
 .h1{
@@ -242,7 +268,7 @@ opacity: 0.3;
 
   /*Trabalhos*/
 
-  .card{
+  .car{
 
     width: 13rem;
   }

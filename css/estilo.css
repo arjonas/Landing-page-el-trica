@@ -1,7 +1,7 @@
 
 body{
 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Crete Round', serif;
 
 }
 
@@ -18,7 +18,7 @@ body{
 }
 
 .navbar{
-  font-family: Abys;
+  font-family: 'Crete Round', serif;
   position: sticky;
   bottom: 1%;
   font-size: 1.1rem;
@@ -116,7 +116,7 @@ opacity: 0.3;
 
 #trabalhos{
 
-  padding: 7% 15%;
+  padding: 14px 30px;
   text-align: center;
 
 
@@ -169,16 +169,50 @@ opacity: 0.3;
   padding: 7% 15%;
   font-weight: 300;
   height: 10%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 1.7rem;
+  font-family: 'Crete Round', serif;
+  line-height: 1.0rem;
   text-indent: 3%;
   align-items: center;
+  
 }
+
+.imgeletrica{
+
+  opacity: 0;
+  margin:0 35%;
+
+}
+
+
+
+.endereco{
+
+
+}
+
+
+.Email{
+
+
+
+
+}
+
+.dados{
+
+  
+    display: flex;
+    justify-content: space-around;  
+ }
+
+
+
 
 .my{
   
-  width: 50%;
-  height: 50%;
+  opacity: 0;
+  width: 60%;
+  height: 60%;
   
  
   margin-left: auto;
@@ -222,6 +256,9 @@ opacity: 0.3;
 
 
 #footer{
+
+  color: white;
+  background-color: #0752B6;
   align-items: center;
   text-align: center;
   padding: 7% 13%;
@@ -245,6 +282,28 @@ opacity: 0.3;
 
 
 
+.localizacao{
+
+  padding-bottom: 22%;
+  padding-top:16px; ;
+  height: 700px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.Email {
+
+
+
+}
+
+.mapa{
+
+  width: 60%;
+  height: 70%;
+  margin: 50px auto;
+}
 
 
 
@@ -273,6 +332,12 @@ opacity: 0.3;
   }
 
 
+
+}
+
+.localizacao{
+
+  font-size: 0.7rem;
 
 }
 
